@@ -1,5 +1,5 @@
 #$ TITLE: Rogue_FPV_Smooth_Cinematic_&_Freestyle_Rates
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Pilot, Rogue_FPV, youtube, freestyle, cinematic, low rates, smooth, flow, FPV_Rogue
