@@ -1,0 +1,63 @@
+#$ TITLE: Rogue_FPV_Smooth_Cinematic_&_Freestyle_Rates
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Pilot, Rogue_FPV, youtube, freestyle, cinematic, OSD, smooth, flow, FPV_Rogue
+#$ AUTHOR: Rogue_FPV
+#$ DESCRIPTION: This is my Default Minimal OSD Setup for my Freestyle Quads with DJI HD.
+#$ DESCRIPTION: Please check out my GPS OSD preset also. I hope you enjoy them, or use these settings as a base for your own OSD.
+#$ DESCRIPTION: Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle, 
+#$ DESCRIPTION: and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Instagram - https://www.instagram.com/fpv_rogue/
+#$ DESCRIPTION: Facebook - https://www.facebook.com/rogue.fpv.52/
+#$ DESCRIPTION: Youtube - https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/
+
+set osd_units = IMPERIAL
+set osd_warn_core_temp = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 45
+set osd_cap_alarm = 0
+set osd_alt_alarm = 400
+set osd_logo_on_arming = FIRST_ARMING
+set osd_logo_on_arming_duration = 10
+set osd_vbat_pos = 4290
+set osd_rssi_pos = 6227
+set osd_link_quality_pos = 6259
+set osd_rssi_dbm_pos = 41
+set osd_tim_2_pos = 6199
+set osd_flymode_pos = 23
+set osd_g_force_pos = 4418
+set osd_throttle_pos = 6183
+set osd_vtx_channel_pos = 341
+set osd_current_pos = 22
+set osd_mah_drawn_pos = 16
+set osd_craft_name_pos = 6144
+set osd_gps_speed_pos = 214
+set osd_gps_lon_pos = 400
+set osd_gps_lat_pos = 385
+set osd_gps_sats_pos = 257
+set osd_home_dir_pos = 46
+set osd_home_dist_pos = 246
+set osd_altitude_pos = 182
+set osd_debug_pos = 4226
+set osd_warnings_pos = 14698
+set osd_avg_cell_voltage_pos = 6220
+set osd_battery_usage_pos = 393
+set osd_disarmed_pos = 14571
+set osd_nheading_pos = 267
+set osd_nvario_pos = 334
+set osd_rtc_date_time_pos = 100
+set osd_flip_arrow_pos = 14446
+set osd_stat_max_spd = OFF
+set osd_stat_endbatt = ON
+set osd_stat_bbox = OFF
+set osd_stat_max_g_force = ON
+set osd_stat_min_link_quality = ON
+set osd_stat_min_rssi_dbm = ON
+
+

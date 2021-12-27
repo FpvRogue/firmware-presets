@@ -1,4 +1,4 @@
-#$ TITLE: Rogue FPV 4.2.11 IRC Apex Freestyle Tune
+#$ TITLE: Rogue_FPV_4.2.11_IRC_Apex_Freestyle_Tune
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
@@ -15,51 +15,6 @@
 #$ DESCRIPTION: Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/
 
-# name: 
-
-# feature
-feature -SOFTSERIAL
-feature -AIRMODE
-
-# beeper
-beeper -GYRO_CALIBRATED
-beeper -RX_LOST
-beeper -RX_LOST_LANDING
-beeper -DISARMING
-beeper -ARMING
-beeper -ARMING_GPS_FIX
-beeper -BAT_CRIT_LOW
-beeper -BAT_LOW
-beeper -GPS_STATUS
-beeper -RX_SET
-beeper -ACC_CALIBRATION_FAIL
-beeper -READY_BEEP
-beeper -DISARM_REPEAT
-beeper -ARMED
-beeper -ON_USB
-beeper -BLACKBOX_ERASE
-beeper -CAM_CONNECTION_OPEN
-beeper -CAM_CONNECTION_CLOSE
-beeper -RC_SMOOTHING_INIT_FAIL
-
-# beacon
-beacon RX_LOST
-beacon RX_SET
-
-# map
-map TAER1234
-
-# serial
-serial 0 0 115200 57600 0 115200
-serial 1 64 115200 57600 0 115200
-serial 5 1 115200 57600 0 115200
-
-# aux
-aux 0 0 0 1900 2100 0 0
-aux 1 13 1 1800 2100 0 0
-aux 2 28 2 900 1800 0 0
-aux 3 35 1 1800 2100 0 0
-aux 4 36 2 1900 2100 0 0
 
 # master
 set gyro_lowpass2_hz = 500
@@ -69,80 +24,22 @@ set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 350
 set dyn_lpf_gyro_min_hz = 400
 set dyn_lpf_gyro_max_hz = 1000
-set acc_calibration = -43,-59,3,1
-set mag_hardware = NONE
-set baro_hardware = NONE
-set rssi_channel = 12
 set rc_smoothing_auto_smoothness = 40
-set serialrx_provider = CRSF
 set dshot_idle_value = 450
 set dshot_bidir = ON
 set failsafe_switch_mode = STAGE2
-set vbat_max_cell_voltage = 440
-set vbat_min_cell_voltage = 350
-set vbat_warning_cell_voltage = 360
-set vbat_scale = 113
-set ibata_scale = 115
 set beeper_dshot_beacon_tone = 3
 set yaw_motors_reversed = ON
 set small_angle = 180
-set yaw_deadband = 6
+set yaw_deadband = 5
 set runaway_takeoff_deactivate_delay = 200
 set runaway_takeoff_deactivate_throttle_percent = 10
 set report_cell_voltage = ON
-set osd_units = IMPERIAL
-set osd_warn_core_temp = OFF
-set osd_warn_launch_control = OFF
-set osd_warn_no_gps_rescue = OFF
-set osd_warn_gps_rescue_disabled = OFF
-set osd_warn_link_quality = ON
-set osd_rssi_alarm = 45
-set osd_cap_alarm = 0
-set osd_alt_alarm = 400
-set osd_logo_on_arming = FIRST_ARMING
-set osd_logo_on_arming_duration = 10
-set osd_vbat_pos = 4290
-set osd_rssi_pos = 6227
-set osd_link_quality_pos = 6259
-set osd_rssi_dbm_pos = 41
-set osd_tim_2_pos = 6199
-set osd_flymode_pos = 23
-set osd_g_force_pos = 4418
-set osd_throttle_pos = 6183
-set osd_vtx_channel_pos = 341
-set osd_current_pos = 22
-set osd_mah_drawn_pos = 16
-set osd_craft_name_pos = 6144
-set osd_gps_speed_pos = 214
-set osd_gps_lon_pos = 400
-set osd_gps_lat_pos = 385
-set osd_gps_sats_pos = 257
-set osd_home_dir_pos = 46
-set osd_home_dist_pos = 246
-set osd_altitude_pos = 182
-set osd_debug_pos = 4226
-set osd_warnings_pos = 14698
-set osd_avg_cell_voltage_pos = 6220
-set osd_battery_usage_pos = 393
-set osd_disarmed_pos = 14571
-set osd_nheading_pos = 267
-set osd_nvario_pos = 334
-set osd_rtc_date_time_pos = 100
-set osd_flip_arrow_pos = 14446
-set osd_stat_max_spd = OFF
-set osd_stat_endbatt = ON
-set osd_stat_bbox = OFF
-set osd_stat_max_g_force = ON
-set osd_stat_min_link_quality = ON
-set osd_stat_min_rssi_dbm = ON
 set debug_mode = GYRO_SCALED
 set scheduler_optimize_rate = ON
-set vtx_low_power_disarm = UNTIL_FIRST_ARM
-set vtx_pit_mode_freq = 5828
-set vcd_video_system = NTSC
 set gyro_1_align_yaw = 1800
 set gyro_rpm_notch_q = 900
-set name = Rogue-8
+set name = 
 
 profile 0
 
@@ -175,4 +72,4 @@ set ff_smooth_factor = 50
 set ff_boost = 0
 set idle_min_rpm = 30
 
-save
+
