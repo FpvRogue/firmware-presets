@@ -139,7 +139,4 @@ set thr_expo = 0
 set small_angle = 180
 #$ OPTION END
 
-# -- Rates --
-#$ OPTION BEGIN (UNCHECKED): Try ctzsnooze's race Rates (optional)
-#$ INCLUDE: presets/4.3/rates/ctzsnooze_race.txt
-#$ OPTION END
+
