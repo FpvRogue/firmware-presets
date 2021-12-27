@@ -1,0 +1,39 @@
+#$ TITLE: Rogue_FPV_3_Inch_RPM_Filter.
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rpm, DShot 3 ", telemetry, filter, filters, clean, basic, default, betaflight, Pilot, Rogue_FPV, youtube, freestyle, cinematic, low rates, smooth, flow, FPV_Rogue
+#$ AUTHOR: Rogue_FPV
+#$ DESCRIPTION: WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!
+#$ DESCRIPTION: WARNING: May cause motor overheating!
+#$ DESCRIPTION: Intended for solid frames, motors with good bearings and clean props.  
+#$ DESCRIPTION: If motors get hot, try a filter set for normal or noisy motors.
+#$ DESCRIPTION: If motors grind or make noise at idle, lower the D Term.
+#$ DESCRIPTION: These are my default RPM Filter settings for my 3" quads.
+#$ DESCRIPTION: Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle, 
+#$ DESCRIPTION: and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Instagram - https://www.instagram.com/fpv_rogue/
+#$ DESCRIPTION: Facebook - https://www.facebook.com/rogue.fpv.52/
+#$ DESCRIPTION: Youtube - https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/
+
+#$ INCLUDE: presets/4.2/filters/defaults.txt
+
+# master
+set gyro_lowpass2_hz = 375
+set dyn_notch_width_percent = 0
+set dyn_notch_q = 250
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 350
+set dyn_lpf_gyro_min_hz = 300
+set dyn_lpf_gyro_max_hz = 750
+
+# profile 0
+set dyn_lpf_dterm_min_hz = 140
+set dyn_lpf_dterm_max_hz = 340
+set dyn_lpf_dterm_curve_expo = 8
+set yaw_lowpass_hz = 50
+
+
+

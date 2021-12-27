@@ -1,4 +1,4 @@
-#$ TITLE: Rogue FPV Smooth Cinematic & Freestyle RC smoothing
+#$ TITLE: Rogue_FPV_Smooth_Cinematic_ &_Freestyle_RC_smoothing
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: RC_SMOOTHING
 #$ STATUS: COMMUNITY

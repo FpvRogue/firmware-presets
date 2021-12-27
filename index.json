@@ -121,6 +121,7 @@
     "keywords": [
       "3 inch",
       "3\"",
+      "4\"",
       "4S",
       "5 inch",
       "5\"",
@@ -132,13 +133,14 @@
       "7 Inch",
       "7\"",
       "CTZsoonze",
+      "DShot 3 \"",
+      "DShot 4 \"",
       "DShot telemetry",
       "FPV_Rogue",
       "HD_freestyle",
       "KarateBrot",
       "OSD",
       "Pilot",
-      "RPM",
       "Rogue_FPV",
       "Supafly",
       "SupaflyFPV",
@@ -185,6 +187,7 @@
       "rc smoothing",
       "rc_smoothing",
       "reset",
+      "rpm",
       "shames",
       "smooth",
       "smoothing",
@@ -193,6 +196,7 @@
       "suagrK",
       "sugarK",
       "switch",
+      "telemetry",
       "tiny",
       "tinyTrainer",
       "trainer",
@@ -207,32 +211,6 @@
     ]
   },
   "presets": [
-    {
-      "fullPath": "presets/4.2/filters/ctzsnooze_race.txt",
-      "hash": "505a3cf9aff8fc6b861770d3bcafcb61431e2865f3fa10170f8c5cc044b5fea1",
-      "options": [],
-      "title": "ctzsnooze's race filter settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "race",
-        "filter",
-        "filters",
-        "ctzsnooze",
-        "RPM"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "ctzsnooze's standard race filter setup.",
-        "Requires RPM filtering and DShot telemetry!"
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
     {
       "fullPath": "presets/4.2/filters/defaults.txt",
       "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
@@ -255,357 +233,203 @@
       ]
     },
     {
-      "fullPath": "presets/4.2/filters/default_no_rpm_clean.txt",
-      "hash": "a49b93320ce1ae4503a2e43061fd00b7fad70ad6d44acb4d97e040163eb72419",
+      "fullPath": "presets/4.2/filters/Rogue_FPV_3_Inch_RPM_Filter.txt",
+      "hash": "fbe7caa8c4454ef3b8bec866328727d06f28b43b57e18a24bb8f62b654f5eaa1",
       "options": [],
-      "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
+      "title": "Rogue_FPV_3_Inch_RPM_Filter.",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "clean",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Too much filtering may cause wobbling.",
-        "Intended for solid frames, motors with good bearings and clean props.",
-        "If motors get hot, try lowering the gyro or D filter sliders.   If motors remain hot despite strong filtering, it may not be a filtering problem.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_no_rpm_noisy.txt",
-      "hash": "04de8d94400cc218d57ff0896cdce43c3784ddd2c5b65381631b13a7dc09cc88",
-      "options": [],
-      "title": "4.3 Filter settings for NOISY build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "noisy",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for slightly beaten up, or larger (7\" and above), builds.",
-        "If motors get hot, try a filter set for very noisy motors, or try lowering the D filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_no_rpm_normal.txt",
-      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
-      "options": [],
-      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "normal",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for a well maintained build in good condition.",
-        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_no_rpm_very_clean.txt",
-      "hash": "fc2bcbbae89d4c42d459d16938c20a80fc8d541123e37e7dcad89c5756b3241a",
-      "options": [],
-      "title": "4.3 Filter settings for VERY CLEAN build WITHOUT RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "no rpm",
-        "filter",
-        "filters",
-        "filtering",
-        "very clean",
-        "very",
-        "clean",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Likely to cause motor overheating on many builds!",
-        "Intended only for rock hard frames, motors with good bearings and true shafts, and perfectly balanced props.",
-        "If motors get hot, try a filter set for clean or normal motors, or try enabling gyro filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_no_rpm_very_noisy.txt",
-      "hash": "e742664e14b7a69434cb235205151942ef7f93b09695ecae70d9790141e7590a",
-      "options": [],
-      "title": "4.3 Filter settings for VERY NOISY build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "very noisy",
-        "very",
-        "noisy",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for slightly beaten up, or larger (10\" and above), builds.",
-        "If motors get hot, they may simply be being asked to do too much.",
-        "May cause 5\" or smaller quads to wobble due to lag."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_rpm_clean.txt",
-      "hash": "7d63ae8fc0c23d33d068667a7ffb5755aafcea2ab3acaf675924c9b21a6786fe",
-      "options": [],
-      "title": "4.3 Filter settings for CLEAN build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "rpm",
-        "DShot telemetry",
+        "DShot 3 \"",
+        "telemetry",
         "filter",
         "filters",
         "clean",
         "basic",
         "default",
-        "betaflight"
+        "betaflight",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
       ],
-      "author": "Betaflight",
+      "author": "Rogue_FPV",
       "description": [
         "WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!",
         "WARNING: May cause motor overheating!",
         "Intended for solid frames, motors with good bearings and clean props.",
         "If motors get hot, try a filter set for normal or noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
+        "If motors grind or make noise at idle, lower the D Term.",
+        "These are my default RPM Filter settings for my 3\" quads.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
       ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
       "include": [
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.2/filters/defaults.txt"
       ]
     },
     {
-      "fullPath": "presets/4.2/filters/default_rpm_noisy.txt",
-      "hash": "d2f73d2aa33cbbc2829ec7331b779a1f0f25608b7e6fe1539525d4078bd462b6",
+      "fullPath": "presets/4.2/filters/Rogue_FPV_4_Inch_RPM_Filter.txt",
+      "hash": "c2c381c10a4ad0e83ce17098e3c351632bfec486b929950bfea411c0818e78a2",
       "options": [],
-      "title": "4.3 Filter settings for NOISY build with RPM FILTERING.",
+      "title": "Rogue_FPV_4_Inch_RPM_Filter.",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "rpm",
-        "DShot telemetry",
+        "DShot 4 \"",
+        "telemetry",
         "filter",
         "filters",
-        "noisy",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "Intended for slightly beaten up, or larger (7\" and above), builds.",
-        "If motors get hot, try the filter Preset for very noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_rpm_normal.txt",
-      "hash": "514677251d86ed5f7894e61fabbb8449f74a53efda71ceff6caa0a2f86acc16c",
-      "options": [],
-      "title": "4.3 Filter settings for NORMAL build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "DShot telemetry",
-        "filter",
-        "filters",
-        "normal",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for a well maintained build in good condition with RPM filtering.",
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "If motors get hot, try a filter set for noisy or very noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.2/filters/default_rpm_very_clean.txt",
-      "hash": "148d14351390490e81f7f868afff72a8252e35bdd294bfa9da983eb34b293490",
-      "options": [],
-      "title": "4.3 Filter settings for VERY CLEAN build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "filter",
-        "filters",
-        "filtering",
-        "very clean",
-        "very",
         "clean",
         "basic",
         "default",
-        "betaflight"
+        "betaflight",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
       ],
-      "author": "Betaflight",
+      "author": "Rogue_FPV",
       "description": [
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "WARNING: Likely to cause motor overheating on many builds!",
-        "Intended only for rock hard frames, motors with good bearings and true shafts, and perfectly balanced props.",
-        "If motors get hot, try a filter set for clean or normal motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
+        "WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!",
+        "WARNING: May cause motor overheating!",
+        "Intended for solid frames, motors with good bearings and clean props.",
+        "If motors get hot, try a filter set for normal or noisy motors.",
+        "If motors grind or make noise at idle, lower the D Term.",
+        "These are my default RPM Filter settings for my 4\" quads.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
       ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
       "include": [
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.2/filters/defaults.txt"
       ]
     },
     {
-      "fullPath": "presets/4.2/filters/default_rpm_very_noisy.txt",
-      "hash": "f9eb86fb1d3d334e8647621a847d08a38ff781860a0f15632f485ff11fe0d117",
+      "fullPath": "presets/4.2/filters/Rogue_FPV_5_Inch_RPM_Filter.txt",
+      "hash": "604c56c43f747a79cd17644ab7c360f4d71ef18f99543715af0bbbf85d4a37fc",
       "options": [],
-      "title": "4.3 Filter settings for VERY NOISY build with RPM FILTERING.",
+      "title": "Rogue_FPV_5_Inch_RPM_Filter.",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "rpm",
+        "DShot telemetry",
+        "5\"",
         "filter",
         "filters",
-        "filtering",
-        "very",
-        "noisy",
-        "very noisy",
-        "hot",
+        "clean",
         "basic",
         "default",
-        "betaflight"
+        "betaflight",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
       ],
-      "author": "Betaflight",
+      "author": "Rogue_FPV",
       "description": [
-        "WARNING: Requires RPM filtering - ensure that DShot Telemetry is working properly!",
-        "WARNING: Too much filtering may cause wobbling.",
-        "Intended for worn, beaten up, or larger (10\" and above), builds.",
-        "If motors remain hot despite strong filtering, it may not be a filtering problem.",
-        "If motors grind or make noise at idle, lower the D filter slider."
+        "WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!",
+        "WARNING: May cause motor overheating!",
+        "Intended for solid frames, motors with good bearings and clean props.",
+        "If motors get hot, try a filter set for normal or noisy motors.",
+        "If motors grind or make noise at idle, lower the D Term.",
+        "These are my default RPM Filter settings for my 5\" quads.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
       ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
       "include": [
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.2/filters/defaults.txt"
       ]
     },
     {
-      "fullPath": "presets/4.2/filters/karate_array.txt",
-      "hash": "7d4913bf9839cc9bb055ab942a22c3c015a2f258e30633a07edcaaf98eb85df0",
+      "fullPath": "presets/4.2/filters/Rogue_FPV_7_Inch_RPM_Filter.txt",
+      "hash": "6400ba2ed99616ff1004a68438bb8eedec8be0a7ee5e8a3b1adeed170931b74a",
       "options": [],
-      "title": "the Karate array",
+      "title": "Rogue_FPV_7_Inch_RPM_Filter.",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
+        "rpm",
+        "DShot telemetry",
+        "7\"",
         "filter",
         "filters",
-        "karate",
-        "race",
-        "freesytle",
-        "suagrK",
-        "CTZsoonze",
-        "KarateBrot",
-        "5\""
+        "clean",
+        "basic",
+        "default",
+        "betaflight",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
       ],
-      "author": "sugarK",
+      "author": "Rogue_FPV",
       "description": [
-        "the Karate fitler array as developed by @CTZsoonze and @sugarK for 4.3 using @karateBrot's rpm cross fade code.",
-        "NOTE this needs bidirectional Dshot support and RPM filtering active to use. DO NOT ATEMPT TO USE WITH OUT RPM FILTERING!",
-        "This filtering array will work with most 5\" race and freesytle builds that have a solid airframe and motors in good condition.",
-        "Follow the usual process of hover testing and safely checking out your tune before using. USE AT YOUR OWN RISK."
+        "WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!",
+        "WARNING: May cause motor overheating!",
+        "Intended for solid frames, motors with good bearings and clean props.",
+        "If motors get hot, try a filter set for normal or noisy motors.",
+        "If motors grind or make noise at idle, lower the D Term.",
+        "These are my default RPM Filter settings for my 7\" quads, slightly more filtering than my 3\" and 5\" presets.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
       ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/51",
-      "include_warning": [
-        "misc/warnings/en/rpm_filters.txt"
-      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
       "include": [
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.2/filters/defaults.txt"
       ]
     },
     {
@@ -629,10 +453,10 @@
       ]
     },
     {
-      "fullPath": "presets/4.2/osd/Rogue_FPV_Freestyle OSD.txt",
-      "hash": "4d1fc5a28e7e91af8e7cdecacafecba8ccfe4033b0157fde6deb918477777fa3",
+      "fullPath": "presets/4.2/osd/Rogue_FPV_Freestyle_OSD.txt",
+      "hash": "56c32decfdb4fbfca6ed8421d00fbd6c327d9a9a5abf9823c28d4910311e1520",
       "options": [],
-      "title": "Rogue_FPV_Smooth_Cinematic_&_Freestyle_Rates",
+      "title": "Rogue_FPV_Freestyle_OSD",
       "firmware_version": [
         "4.2"
       ],
@@ -653,6 +477,40 @@
       "description": [
         "This is my Default Minimal OSD Setup for my Freestyle Quads with DJI HD.",
         "Please check out my GPS OSD preset also. I hope you enjoy them, or use these settings as a base for your own OSD.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/osd/Rogue_FPV_GPS_OSD.txt",
+      "hash": "d204cd1a63bdf4724a107fb76f0c0967c39b578a2b12e987d350437ad96d1a96",
+      "options": [],
+      "title": "Rogue_FPV_GPS_OSD",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "OSD",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "This is my Default Minimal OSD Setup for my GPS Quads with DJI HD.",
+        "Please check out my Freestyle OSD preset also. I hope you enjoy them, or use these settings as a base for your own OSD.",
         "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
         "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
         "Instagram - https://www.instagram.com/fpv_rogue/",
@@ -750,9 +608,9 @@
     },
     {
       "fullPath": "presets/4.2/rc_smoothing/Rogue_FPV_Smooth_Cinematic_&_Freestyle.txt",
-      "hash": "a6a28f7db0db386a70bb659df6202dc97e290bd0a37022ca4aacb808e86128d8",
+      "hash": "464edeb48f719d5f12a30369a839b837f3283a658342b2c99bc8c4fcfaa58a5f",
       "options": [],
-      "title": "Rogue FPV Smooth Cinematic & Freestyle RC smoothing",
+      "title": "Rogue_FPV_Smooth_Cinematic_ &_Freestyle_RC_smoothing",
       "firmware_version": [
         "4.2"
       ],
@@ -819,10 +677,10 @@
       ]
     },
     {
-      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_IRC_Apex_Freestyle_Tune.txt",
-      "hash": "5a0625cbbd3766812fb2a3be2734722b511c8321054a8777ac379e0a09deb66e",
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_3inch_Armattan_Gecko.txt",
+      "hash": "c533a9454b7ea6eda20a98b18db72eecd60eaf3cb1d31cb73c67e488fefb2991",
       "options": [],
-      "title": "Rogue_FPV_4.2.11_IRC_Apex_Freestyle_Tune",
+      "title": "Rogue_FPV_4.2.11_3inch_Armattan_Gecko",
       "firmware_version": [
         "4.2"
       ],
@@ -832,6 +690,171 @@
         "cinematic",
         "rc",
         "tune",
+        "3\"",
+        "tuning",
+        "hd",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my tuned PID settings for my Armattan Gecko 3\".",
+        "This preset is optimized for 4S 1608/3100kv, 650-850mah lipo.",
+        "For even smoother stick feel, try my Rates Preset!",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_3inch_Dquad_Mini_LRX.txt",
+      "hash": "8cce58ca45d5547acb99673528b8b4f5839784cb371b824ed2555b3912958a49",
+      "options": [],
+      "title": "Rogue_FPV_4.2.11_3inch_Dquad_Mini_LRX",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "tune",
+        "3\"",
+        "tuning",
+        "hd",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my tuned PID settings for my Dquad Mini LRX 3\".",
+        "This preset is optimized for 4S 1508/3400kv, 650-850mah lipo.",
+        "For even smoother stick feel, try my Rates Preset!",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_4inch_LR_Armattan_Bobcat.txt",
+      "hash": "556480c9c0c4480b0ccdea3e3271e20ec34c753f607acfaf0f24e0eb69334779",
+      "options": [],
+      "title": "RRogue_FPV_4.2.11_4inch_LR_Armattan_Bobcat",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "tune",
+        "4\"",
+        "tuning",
+        "hd",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my tuned PID settings for my Long Range Armattan Bobcat 4\".",
+        "This preset is optimized for 4S 2203/3450kv, 3000mah li-ion, and Hero-9.",
+        "For even smoother stick feel, try my Rates Preset!",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_5inch_Armattan_Badger_Freestyle_Tune.txt",
+      "hash": "b80c9b80e98384f7036719ac735b5c29a35f1697c9ef935f079d8f0d86a3f7e3",
+      "options": [],
+      "title": "Rogue_FPV_4.2.11_5inch_Armattan_Badger_Freestyle_Tune",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "tune",
+        "5\"",
+        "tuning",
+        "hd",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my tuned PID settings for my Armattan Badger 5\".",
+        "This preset is optimized for 6S 2306/1700kv, 1200-1500mah lipo and Hero 9 weight.",
+        "For even smoother stick feel, try my Rates Preset!",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_5inch_IRC_Apex_Freestyle_Tune.txt",
+      "hash": "d8982ff02c5bf5160e3084ce14b34531251a9c1c6f705b8903f702a119abd285",
+      "options": [],
+      "title": "Rogue_FPV_4.2.11_5inch_IRC_Apex_Freestyle_Tune",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "tune",
+        "5\"",
         "tuning",
         "hd",
         "Pilot",
@@ -847,7 +870,48 @@
       "author": "Rogue_FPV",
       "description": [
         "These are my tuned PID settings for my Impulse RC Apex 5\".",
-        "This preset is optimized for 6S 1750kv, 1200-1500mah lipo and Hero 9 weight.",
+        "This preset is optimized for 6S 2306/1750kv, 1200-1500mah lipo and Hero 9 weight.",
+        "For even smoother stick feel, try my Rates Preset!",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.2/tune/Rogue_FPV_4.2.11_7inch_LR_AOS_Falcon7.txt",
+      "hash": "fe225c87a77e65be379a86ffceb1bbbb4f949aa5d86211edbf3bb046a3fb59c1",
+      "options": [],
+      "title": "Rogue_FPV_4.2.11_7inch_LR_AOS_Falcon7",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "tune",
+        "7\"",
+        "tuning",
+        "hd",
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my tuned PID settings for my Long Range AOS Falcon 7\".",
+        "This preset is optimized for 6S 2806.5/1300kv, 3000-4000mah li-ion and Hero 9 weight.",
         "For even smoother stick feel, try my Rates Preset!",
         "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
         "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
@@ -1302,6 +1366,74 @@
       "description": [
         "Resets the OSD values back to Betaflight 4.3 defaults"
       ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/Rogue_FPV_Freestyle_OSD.txt",
+      "hash": "0450d4098eab26f786de0e2796b38a097a5b0ad9c68e0dd2e58da4ab84bb2ef1",
+      "options": [],
+      "title": "Rogue_FPV_Freestyle_OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "OSD",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "This is my Default Minimal OSD Setup for my Freestyle Quads with DJI HD.",
+        "Please check out my GPS OSD preset also. I hope you enjoy them, or use these settings as a base for your own OSD.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
+    },
+    {
+      "fullPath": "presets/4.3/osd/Rogue_FPV_GPS_OSD.txt",
+      "hash": "c65bdf86fabf2c51730fed4d0fad60dc36100b08e327f5e62e5e482cbf6ec32f",
+      "options": [],
+      "title": "Rogue_FPV_GPS_OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "cinematic",
+        "OSD",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "This is my Default Minimal OSD Setup for my GPS Quads with DJI HD.",
+        "Please check out my Freestyle OSD preset also. I hope you enjoy them, or use these settings as a base for your own OSD.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/"
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
