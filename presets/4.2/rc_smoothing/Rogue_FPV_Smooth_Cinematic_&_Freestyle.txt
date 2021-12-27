@@ -1,7 +1,7 @@
 #$ TITLE: Rogue FPV Smooth Cinematic & Freestyle RC smoothing
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: RC_SMOOTHING
-#$ STATUS: Community
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: cinematic, rc, smoothing, rc_smoothing, jitter, transition, hd, Pilot, Rogue_FPV, youtube, freestyle, cinematic, low rates, smooth, flow, FPV_Rogue
 #$ AUTHOR: Rogue_FPV
 #$ DESCRIPTION: This is my default settings for RC Smoothing when using Crossfire. I use these settings on all my crafts, from 4" - 7".
