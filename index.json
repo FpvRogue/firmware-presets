@@ -1456,6 +1456,86 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/Rogue_FPV_Acro_Only_Modes_Preset.txt",
+      "hash": "d85c0430db4255a369fda34dd477e3f961c6776240565946bd8853696c68bf06",
+      "options": [],
+      "title": "Rogue_FPV_Acro_Only_Modes_Preset",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "acro",
+        "mode",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my default switch / mode settings for acro freestyle flying.",
+        "Airmode is on a switch for perching. Please check out my GPS Rescue Mode Preset also.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
+      "include": [
+        "presets/4.2/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/modes/Rogue_FPV_GPS_Rescue_Modes_Preset.txt",
+      "hash": "4b07ae54ad8fd2e2e8c1b437a84787ec5bfb3257be4afe8fc5026ea7b9eadcb2",
+      "options": [],
+      "title": "Rogue_FPV_GPS_Rescue_Modes_Preset",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Pilot",
+        "Rogue_FPV",
+        "youtube",
+        "freestyle",
+        "GPS",
+        "GPS Rescue",
+        "Rescue",
+        "mode",
+        "cinematic",
+        "low rates",
+        "smooth",
+        "flow",
+        "FPV_Rogue"
+      ],
+      "author": "Rogue_FPV",
+      "description": [
+        "These are my default switch / mode settings for GPS Rescue & acro freestyle flying.",
+        "GPS Rescue & Airmode are on switchs for perching and RTH. Please check out my Acro only Mode Preset also.",
+        "Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle,",
+        "and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805",
+        "Instagram - https://www.instagram.com/fpv_rogue/",
+        "Facebook - https://www.facebook.com/rogue.fpv.52/",
+        "Youtube - https://www.youtube.com/c/RogueFPV805",
+        "Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/",
+      "include": [
+        "presets/4.2/rates/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "678b47f6387b4728d81df47685778882f34bf1afa1b321ce7193e34d351d6927",
       "options": [],

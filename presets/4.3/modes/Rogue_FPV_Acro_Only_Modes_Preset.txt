@@ -1,0 +1,32 @@
+#$ TITLE: Rogue_FPV_Acro_Only_Modes_Preset
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Pilot, Rogue_FPV, youtube, freestyle, acro, mode, cinematic, low rates, smooth, flow, FPV_Rogue
+#$ AUTHOR: Rogue_FPV
+#$ DESCRIPTION: These are my default switch / mode settings for acro freestyle flying.
+#$ DESCRIPTION: Airmode is on a switch for perching. Please check out my GPS Rescue Mode Preset also.
+#$ DESCRIPTION: Rogue FPV - one of the most non-famous YouTubers in FPV. I like to publish cinematic drone footage, FPV Freestyle, 
+#$ DESCRIPTION: and technical drone tips on my youtube channel. Please check it out, Like and SUB! https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Instagram - https://www.instagram.com/fpv_rogue/
+#$ DESCRIPTION: Facebook - https://www.facebook.com/rogue.fpv.52/
+#$ DESCRIPTION: Youtube - https://www.youtube.com/c/RogueFPV805
+#$ DESCRIPTION: Support me with Merch! - https://www.zazzle.com/store/rogue_fpv/collections
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/
+#$ INCLUDE: presets/4.2/rates/defaults.txt
+
+
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+
+# aux
+aux 0 0 0 1900 2100 0 0
+aux 1 13 1 1800 2100 0 0
+aux 2 28 2 900 1800 0 0
+aux 3 35 1 1800 2100 0 0
+aux 4 36 2 1900 2100 0 0
+
+# rxfail
+rxfail 7 s 1950
